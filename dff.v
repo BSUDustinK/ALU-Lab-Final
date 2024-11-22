@@ -16,4 +16,3 @@ module dff(
         end
     end
 endmodule
-//WORKS AS INTENDED

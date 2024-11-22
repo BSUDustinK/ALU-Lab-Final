@@ -1,6 +1,6 @@
 module clock_div
 #(
-    parameter DIVIDE_BY =17 // Or 100,000 for counter implementation
+    parameter DIVIDE_BY =17
 )
 (
     input clock,
@@ -38,4 +38,4 @@ module clock_div
     end
 
 endmodule
-//WORKS AS INTENDED
+

@@ -17,19 +17,7 @@ generate
     end
 endgenerate
 
-//twos_compliment comp(
-//    .In(Y),
-//    .Out(Ycomp)
-//);
-
 always@(*)begin
     Yout <= Y;
 end
-//if(C[7])begin       //C[7] should only be HIGH if both MSB of each value are high. 
-//    Yout <= Ycomp;
-//end else begin
-//    Yout <= Y;
-//    end
-//end
-
 endmodule
